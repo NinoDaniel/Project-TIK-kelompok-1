@@ -87,17 +87,7 @@ header a{
     align-items: center;
     padding-left: 3%;
     padding-bottom:6%;
-    display:flex;
 
-}
-
-.galeriperusahaan{
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    display:flex;
-    justify-content: left;
-    align-items:left;
 }
 
 .galeri{
@@ -109,52 +99,103 @@ header a{
 
 }
 
+.galeriperusahaan{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display:flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 .gambargaleri{
     display:flex;
     flex-direction: row;
+    padding-bottom: 20px;
+    size:cover;
 }
 
 .gambargaleri img{
-    width:500px;
-    height:500px;
-    padding:10px;
+    width:600px;
+    height:400px;
+    padding:5px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
-.footer{
+footer {
+    background: #000000;
+    color: white;
+    padding: 40px 10%;
+}
+
+.footer-container {
     display: flex;
-    flex-direction: row;
-    justify-content: start;
-    left:0;
-    bottom:0;
-    width:100%;
-    background-color: rgb(0, 0, 0);
-    color:white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
 }
 
-.isi-footer{
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    padding-left:11%;
-    padding-top: 5%;
-    padding-right: 5%;
-    padding-bottom:5%;
-    text-align:left;
+.footer-info, .social-links, .footer-map {
+    flex: 1;
+    min-width: 250px;
 }
+
+.footer-info h3, .social-links h3, .footer-map h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #a3d8f4;
+    margin-bottom: 10px;
+}
+
+
+.footer-info a {
+    color: #66b3ff;
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
 
 .last-footer{
-    display: flex;
+    display: flex; 
+    flex-direction: column;
     background-color: #173660;
     padding:20px;
 }
 
+.last-footer a {
+    color: azure;
+    padding: 0px 10px 10px 10px;
+}
+
 .social-links{
     display:flex;
+    align-items:center;
     justify-content:center;
-    size:20px;
+    padding-top:20px;
+    text-decoration: none;
 }
 
 .madeby{
     display:flex;
     justify-content:center;
-    
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding-top:5px;
+    padding-bottom:20px;
+}
+
+
+.footer-bottom {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    color: #a3d8f4;
+    text-align: center;
 }
