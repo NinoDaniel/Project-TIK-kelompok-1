@@ -57,6 +57,10 @@ header a{
     padding-right: 20px;
 }
 
+..navbar a:hover{
+    text-decoration: underline;
+    color:rgb(0, 204, 255);
+}
 
 
 .hero {
@@ -168,20 +172,24 @@ header a{
     font-size: 36px;
     font-weight: bold;
     color: #a3d8f4;
-    margin-bottom: 20px;
+    align-items: center;
 }
+
 
 .gallery-container {
     display: flex;
     gap: 20px;
+    padding-top:20px;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .gallery-item img {
-    width: 250px;
+    width: 490px;
+    height: 350px;
     border-radius: 10px;
     transition: transform 0.3s;
+    padding-bottom:0
 }
 
 .gallery-item:hover img {
@@ -189,15 +197,14 @@ header a{
 }
 
 .gallery-item p {
-    font-size: 16px;
+    font-size: 20px;
     color: #a3d8f4;
     font-weight: bold;
-    margin-top: 10px;
 }
 
 
 .service {
-    background: #0a192f;
+    background: #173660;
     padding: 80px 10%;
     text-align: center;
 }
@@ -236,11 +243,12 @@ header a{
 
 
 .service-item img {
-    width: 80px;
-    height: 80px;
+    width: 300px;
+    height: 300px;
     object-fit: contain;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     transition: transform 0.3s ease;
+    align-items: center;
 }
 
 .service-item:hover img {
